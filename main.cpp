@@ -14,7 +14,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 	// ゲームウィンドウの作成
 	win = WinApp::GetInstance();
-	win->CreateGameWindow(L"LC1A_02_オクダ_ハルト_AL3");
+	win->CreateGameWindow(L"LC1A_02_オクダ_ハルト_AL3");	//ウィンドウ名変更
 
 	// DirectX初期化処理
 	dxCommon = DirectXCommon::GetInstance();
